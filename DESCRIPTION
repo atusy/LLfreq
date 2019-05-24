@@ -1,4 +1,4 @@
-Package: MCMCfreq
+Package: LLfreq
 Title: Laplace Approximation Logistic Bayesian Gaussian Process
 Version: 0.0.2
 Authors@R: 
@@ -11,7 +11,7 @@ Author:Tan Furukawa [aut, cre]
 Maintainer:Tan Furukawa <rpackagetan@gmail.com> 
 License: GPL (>=3)
 Depends: 
-    R (>= 3.4.0),
+    R (>= 3.4.0)
 Imports: 
     mvtnorm (>= 1.0.10)
 Encoding: UTF-8
