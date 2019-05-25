@@ -17,7 +17,7 @@ install_github("Tan-Furukawa/LLfreq")
 ```r
 library(LLfreq)
 d <- Osayama
-e <- auto_cmpt_freq(d)
+e <- lalgp(d)
 lalgp_graph(e, hist = T, ylab = "Frequency")
 ```
 
