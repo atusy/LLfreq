@@ -1,6 +1,6 @@
-# LLfreq
+# LLfreq (Beta Version)
 ## Overviwe
-The LLfreq package provides Laplace approximation Bayesian Gaussian Process regressionb for one dimentional data. Althoug this package was created to correctly estimate the age frequency spectrum of detrital zircon, it can be widely applied to various data instead of histogram.
+The LLfreq package provides Laplace approximation Bayesian Gaussian Process regressionb for one dimentional data. This package was created to correctly estimate the age frequency spectrum of detrital zircon. Moreover, it can be widely applied to various data sets instead of histogram.
 
 ## Installation
 
@@ -8,7 +8,7 @@ The LLfreq package provides Laplace approximation Bayesian Gaussian Process regr
 install.packages("mvtnorm")
 install.packages("devtools")
 library(devtools)
-install_github("Tan-Furukawa/MCMCfreq")
+install_github("Tan-Furukawa/LLfreq")
 ```
 
 ## Examples
@@ -18,7 +18,7 @@ install_github("Tan-Furukawa/MCMCfreq")
 library(LLfreq)
 d <- Osayama
 e <- auto_cmpt_freq(d)
-freq_graph(e, hist = T, ylab = "Frequency")
+lalgp_graph(e, hist = T, ylab = "Frequency")
 ```
 
 ## Author
@@ -36,4 +36,4 @@ e-mail: rpackagetan@gmail.com
 southwestern Japan: 320 Ma blueschist-bearing serpentinite melange beneath the Oyama ophiolite.
 Jour. Geol. Soc. Japan, 104, 213-231.
 
-
+* Alan, G, Frank, B., Tetsushima M., Xuefei M. (2019) mvtnorm: Computes multivariate normal and t probabilities, quantiles, random deviates and densities. R package version  1.0-10  https://CRAN.R-project.org/package=mvtnorm
