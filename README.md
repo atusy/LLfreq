@@ -5,7 +5,6 @@ The LLfreq package provides Laplace approximation Bayesian Gaussian Process regr
 ## Installation
 
 ```r
-install.packages("mvtnorm")
 install.packages("devtools")
 library(devtools)
 install_github("Tan-Furukawa/LLfreq")
